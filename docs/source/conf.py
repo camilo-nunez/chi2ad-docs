@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'Chi2AD User’s Manual'
-copyright = '2023, Chilean Virtual Observatory, Universidad Técnica Federico Santa María.'
+copyright = '2023, Chilean Virtual Observatory, Universidad Técnica Federico Santa María'
 author = 'Camilo Nunez-Fernandez'
 
 release = '0.1'
@@ -26,6 +26,7 @@ intersphinx_mapping = {
 intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
+source_suffix = '.rst'
 
 # -- Options for HTML output
 
