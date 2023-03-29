@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Chi2AD User’s Manual'
+copyright = '2023, Chilean Virtual Observatory, Universidad Técnica Federico Santa María.'
+author = 'Camilo Nunez-Fernandez'
 
 release = '0.1'
 version = '0.1.0'
