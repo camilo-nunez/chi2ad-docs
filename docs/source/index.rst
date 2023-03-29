@@ -1,30 +1,3 @@
-.. include:: ../README.rst
-
-Welcome to Lumache's documentation!
-===================================
-
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
-
-Contents
---------
-
-.. toctree::
-
-   Home <self>
-   usage
-   api
-
-
 Introduction
 ============
 
@@ -64,3 +37,12 @@ Cluster Nodes
 The Chi2AD was brought into operation in 2014 and consists of 8 compute nodes. Each node has two sockets, equipped with an `Intel Xeon E5-2680 v3 2.50GHz` 14 cores processor (Haswell). The peak performance of the system is 4.48 `TFLOPS/s`.
 
 Different kinds of nodes are available to users: one login node and two nodes for virtualization are available. The Operating System on the Chi2AD cluster is Rocky Linux release 8. The batch system and workload manager is SLURM. 
+
+Contents
+--------
+
+.. toctree::
+
+   Home <self>
+   fs
+   access
