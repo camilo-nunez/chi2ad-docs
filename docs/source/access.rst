@@ -5,7 +5,7 @@ Login
 ~~~~~
 You can log into Chi2AD with the following ssh command, replacing `<uid>` with your username:
 
-.. code-block::
+.. code-block:: console
 
     [client@localhost]% ssh login.hpc.chivo.cl -l <uid>
 
@@ -19,7 +19,7 @@ Headnode
 ~~~~~~~~
 In the headnode (A.K.A. `chi2ad-headnode-01`), the users can interact with the cluster. You can log into the `chi2ad-headnode-01` with the following ssh command:
 
-.. code-block::
+.. code-block:: console
 
     [<uid>@chi2ad-login-01]% ssh chi2ad-headnode-01.internal.chivo.cl
 
@@ -38,7 +38,7 @@ Interactive shell on Compute Node
 ---------------------------------
 If you need an interactive bash session on a compute node, you need to run the following command in the `chi2ad-headnode-01`:
 
-.. code-block::
+.. code-block:: console
 
     [<uid>@chi2ad-headnode-01]% srun -p compute-node-A --time=HH:MM:SS --mem=nnG --pty bash
 
@@ -54,7 +54,7 @@ Viewing Striping Information
 ----------------------------
 To view the striping information for a specific file or directory:
 
-.. code-block::
+.. code-block:: console
 
     [<uid>@chi2ad-login-01]% lfs getstripe filename
     [<uid>@chi2ad-login-01]% lfs getstripe -d directory_name
@@ -65,19 +65,19 @@ Listing Disk Usage and Quotas
 -----------------------------
 To display disk usage and limits on your `/users/<uid>` directory:
 
-.. code-block::
+.. code-block:: console
 
     [<uid>@chi2ad-login-01]% lfs quota -h -u <uid> /users
 
 or
 
-.. code-block::
+.. code-block:: console
     
     [<uid>@chi2ad-login-01]% lfs quota -h -u <uid> /users/<uid>
 
 To display usage on each OST, add the -v option:
 
-.. code-block::
+.. code-block:: console
 
     [<uid>@chi2ad-login-01]% lfs quota -h -v -u <uid> /users/<uid>
 
@@ -85,8 +85,8 @@ Listing Space Usage
 -------------------
 To list space usage per OST and MDT, in human-readable format, for all Lustre filesystems or for a specific one:
 
-.. code-block::
+.. code-block:: console
 
     [<uid>@chi2ad-login-01]% lfs df -h
     [<uid>@chi2ad-login-01]% lfs df -h /users
-    [<uid>@chi2ad-login-01]% lfs df -h /work
+    [<uid>@chi2ad-login-01]% lfs df -h /archive

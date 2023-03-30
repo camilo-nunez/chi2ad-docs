@@ -33,7 +33,7 @@ List loaded modules
 
 The `module list` command lists the modules which are currently loaded in your environment.
 
-.. code-block::
+.. code-block:: console
 
     [<uid>@chi2ad-headnode-01]% module load valgrind
     [<uid>@chi2ad-headnode-01]% module list
@@ -46,7 +46,7 @@ Unload a module
 
 The `module unload`` option unloads a software component (make it unreachable by your environment by removing the proper paths from your environment variables).
 
-.. code-block::
+.. code-block:: console
 
     [<uid>@chi2ad-headnode-01]% module list
 
