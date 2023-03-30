@@ -47,3 +47,4 @@ Contents
    fs
    access
    module
+   singularity
