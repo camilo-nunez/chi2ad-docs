@@ -44,7 +44,7 @@ Contents
 .. toctree::
 
    Home <self>
-   fs
    access
+   fs
    module
    singularity
