@@ -40,3 +40,24 @@ Finally, run the container with:
     RaawwWWWWWRRRR!! Avocado!
 
 the output of the container must be `RaawwWWWWWRRRR!! Avocado!`.
+
+How use CASA container
+~~~~~~~~~~~~~~~~~~~~~~
+
+Load the module in the allocated node:
+
+.. code-block:: console
+
+    [<uid>@chi2ad-node-0XX]$ module load singularity
+
+Pull the last version of the CASA container:
+
+.. code-block:: console
+
+    [<uid>@chi2ad-node-0XX]$ singularity pull --arch amd64 library://camilo-nunez-fernandez/cassaca/casa:6.5.3
+
+Run the IPython interactive shell:
+
+.. code-block:: console
+
+    [<uid>@chi2ad-node-0XX]$ singularity run casa_6.5.3.sif
