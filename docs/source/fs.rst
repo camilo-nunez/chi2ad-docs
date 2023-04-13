@@ -9,7 +9,7 @@ Data Management
 Filesystems
 -----------
 
-On Chi2AD, we provide the Lustre parallel filesystem version 2.10.5. Users have access to three different storage spaces: `HOME` and `WORK`. Each storage area has a specific purpose as described below.
+On Chi2AD, we provide the Lustre parallel filesystem version 2.10.5. Users have access to two different storage spaces: `HOME` and `WORK`. Each storage area has a specific purpose as described below.
 
 +----------+-------------------------------------------------------------------------------------------------------------+
 || HOME    || is the file system where users sessions start upon login.                                                  |
