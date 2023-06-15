@@ -48,3 +48,4 @@ Contents
    fs
    module
    singularity
+   gpu
